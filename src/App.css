@@ -1,0 +1,19 @@
+.logo {
+  border-radius: 50%;
+}
+.footer {
+  color: white;
+  bottom: unset;
+}
+.main {
+  min-height: 60vh;
+  margin: 5px 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 12rem;
+  margin: 10px 25px;
+  border-radius: 10px;
+}
