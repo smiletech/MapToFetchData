@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./p1.jpg";
 
-function nav() {
+function Nav() {
+  // let [SearchVal, setSearchVal] = useState("AAA");
+  const [val1, setval1] = useState(0);
+
+  const SearchHandler = (Data) => {
+    console.log(Data);
+  };
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -22,9 +29,11 @@ function nav() {
               type="search"
               placeholder="Search"
               aria-label="Search"
+              //   value={val1}
+              //   onChange={() => setval1((e) => e.targe.value)}
             />
-            <button className="btn btn-outline-success" type="submit">
-              Search
+            <button className="btn btn-outline-success mx-4">
+              <i className="bi bi-cart-plus-fill"></i>
             </button>
           </form>
         </div>
@@ -33,4 +42,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default Nav;

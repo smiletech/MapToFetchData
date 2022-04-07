@@ -6,46 +6,48 @@ export default function Footer() {
       <div className="container-fluid text-center text-md-left">
         <div className="row">
           <div className="col-md-6 mt-md-0 mt-3">
-            <h5 className="text-uppercase">Footer Content</h5>
+            <h5 className="text-uppercase">MOON LIGHT</h5>
             <p>
-              Here you can use rows and columns to organize your footer content.
+              Moonlight consists of mostly sunlight (with little earthlight)
+              reflected from the parts of the Moon's surface where the Sun's
+              light strikes.
             </p>
           </div>
 
           <hr className="clearfix w-100 d-md-none pb-3" />
 
           <div className="col-md-3 mb-md-0 mb-3">
-            <h5 className="text-uppercase">Links</h5>
+            <h5 className="text-uppercase">𝕾𝖔𝖈𝖎𝖆𝖑</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
+                <a href="#!">FΛᄃΣBӨӨK</a>
               </li>
               <li>
-                <a href="#!">Link 2</a>
+                <a href="#!">IПƧƬΛGЯΛM</a>
               </li>
               <li>
-                <a href="#!">Link 3</a>
+                <a href="#!">†wï††êr</a>
               </li>
               <li>
-                <a href="#!">Link 4</a>
+                <a href="#!">Snapchat</a>
               </li>
             </ul>
           </div>
 
           <div className="col-md-3 mb-md-0 mb-3">
-            <h5 className="text-uppercase">Links</h5>
+            <h5 className="text-uppercase">ₚᵣₒfₑₛₛᵢₒₙₐₗ</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
+                <a href="#!">𝕝𝕚𝕟𝕜𝕖𝕕 𝕚𝕟</a>
               </li>
               <li>
-                <a href="#!">Link 2</a>
+                <a href="#!">Ｇｉｔ Ｈｕｂ</a>
               </li>
               <li>
-                <a href="#!">Link 3</a>
+                <a href="#!">🄲🄰🅁🅁🄴🅁</a>
               </li>
               <li>
-                <a href="#!">Link 4</a>
+                <a href="#!">ᴺᵃᵘᵏʳⁱ.ᶜᵒᵐ</a>
               </li>
             </ul>
           </div>
@@ -54,7 +56,10 @@ export default function Footer() {
 
       <div className="footer-copyright text-center py-3">
         © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://www.youtube.com/watch?v=HpHLa-5Wdys&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=32&ab_channel=Codevolution">
+          {" "}
+          Moonlight.com
+        </a>
       </div>
     </footer>
   );
